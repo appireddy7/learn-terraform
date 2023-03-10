@@ -1,0 +1,1 @@
+sample1 = "Hello this is India from auto.tf.vars"
