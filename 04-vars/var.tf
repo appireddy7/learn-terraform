@@ -21,9 +21,7 @@ output "cli" {
 variable "sample5" {
   default = "Hello"
 }
-output "sample5" {
-  value = var.sample5
-}
+
 
 variable "sample6" {
   default = [
@@ -33,9 +31,7 @@ variable "sample6" {
   ]
 }
 
-output "sample6" {
-  value = var.sample6
-}
+
 variable "sample7" {
   default = {
     string = "Hello",
@@ -44,6 +40,6 @@ variable "sample7" {
   }
 }
 
-output "sample7" {
-  value = var.sample7
+output "types" {
+  value = "Variable sample5 - ${var.sample5}, First value in the list - ${var.sample6[0]}, Boolean value of map - ${var.sample7["boolean"]} "
 }
