@@ -181,5 +181,5 @@ resource "aws_instance" "payment" {
 }
 
 output "payment" {
- value = aws_instance.payment.public_ip
+ value = aws_instance.payment.private_ip
 }
