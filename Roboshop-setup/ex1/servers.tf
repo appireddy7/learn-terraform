@@ -180,6 +180,6 @@ resource "aws_instance" "payment" {
   }
 }
 
-output "payment" {
-  value = "private ip of payment = ${var.payment[private_ip]}"
-}
+#output "payment" {
+#  value = "private ip of payment = ${var.payment[private_ip]}"
+#}
