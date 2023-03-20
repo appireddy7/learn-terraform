@@ -33,5 +33,5 @@ resource "null_resource" "d3" {
 }
 
 output "FRUITS" {
-  value = [ for s in var.d3 : upper(s) ]
+  value = [ for s in var.d2 : upper(s) ]
 }
