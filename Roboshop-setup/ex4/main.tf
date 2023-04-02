@@ -20,7 +20,7 @@ variable "instances" {
 
       user    = {
       name    = "user"
-      type    = "t3.medium"
+      type    = "t3.small"
     }
   }
 }
