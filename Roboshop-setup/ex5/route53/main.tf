@@ -5,3 +5,6 @@ resource "aws_route53_record" "record" {
   ttl     = 30
   records = [aws_instance.ec2.private_ip]
 }
+
+variable "private_ip" {}
+variable "component" {}
