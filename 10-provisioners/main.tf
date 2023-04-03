@@ -13,9 +13,10 @@ resource "aws_instance" "ec2" {
       password = "DevOps321"
       host     = self.public_ip
     }
+
+
+    inline = [
+      "echo hello"
+    ]
   }
 }
-
-inline = [
-"echo hello"
-]
